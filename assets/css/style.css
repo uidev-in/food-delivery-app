@@ -25,14 +25,17 @@ a {
 p {
     line-height: 1.7;
 }
+.f-17 {
+    font-size: 17px;
+}
+.f-18 {
+    font-size: 18px;
+}
 
 .f-20 {
     font-size: 20px;
 }
 
-.f-17 {
-    font-size: 17px;
-}
 .bg-light {
     background-color: #f0f9fa !important;
 }
