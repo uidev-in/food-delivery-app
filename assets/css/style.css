@@ -1,5 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap");
+
 body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 16px;
     color: #1e3547;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none;
+}
+
+p {
+    line-height: 1.7;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-17 {
+    font-size: 17px;
+}
+.bg-light {
+    background-color: #f0f9fa !important;
+}
+.btn {
+    font-size: 15px;
+    padding: 0.6rem 1.3rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: #309737 !important;
+    border-color: #309737 !important;
+}
+
+.btn-soft-primary {
+    background-color: #309737 !important;
+    color: #fff !important;
+}
+
+.btn-soft-primary:hover,
+.btn-soft-primary:focus,
+.btn-soft-primary:active,
+.btn-soft-primary.active,
+.btn-soft-primary.focus,
+.btn-soft-primary:not(:disabled):not(.disabled):active,
+.btn-soft-primary:not(:disabled):not(.disabled):active:focus,
+.btn-soft-primary .open>.dropdown-toggle.btn-primary {
+    background: #309737;
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+/* hero section */
+.bg-home {
+    position: relative;
+    padding: 100px 0px 240px 0px;
+    border-radius: 0px 0px 0px 450px;
+}
+
+.home-center {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.home-desc-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-content .home-title {
+    font-size: 45px;
+}
+
+/* Service */
+.title-box .title-heading {
+    font-size: 30px;
 }
