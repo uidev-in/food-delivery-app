@@ -100,3 +100,18 @@ p {
 .title-box .title-heading {
     font-size: 30px;
 }
+
+/* Features */
+.image-box img{
+width: 445px;
+}
+
+/* About */
+.media-box{
+    padding-right: 50px;
+    padding: 13px 20px;
+    border-radius: 10px;
+    width: 125px;
+    -webkit-box-shadow: 0px 5px 30px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0px 5px 30px -10px rgb(0 0 0 / 10%);
+}
