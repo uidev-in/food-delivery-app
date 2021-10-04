@@ -558,6 +558,25 @@ width: 350px;
     transition: all 0.5s;
 }
 
+/* Modal */
+.modal .modal-content .modal-body {
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+    -webkit-box-shadow: 0 10px 50px -10px rgb(0 0 0 / 90%);
+    box-shadow: 0 10px 50px -10px rgb(0 0 0 / 90%);
+}
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+}
+.close-btn span {
+    color: #ccc;
+}
 
 /* Scrollbar */
 

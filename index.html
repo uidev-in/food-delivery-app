@@ -16,8 +16,31 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--Custom Resources -->
     <link rel="stylesheet" href="assets/css/style.css">
-   
-    <!-- <link rel="stylesheet" type="text/css" href="https://landing.zytheme.com/lesigma/assets/css/style.css"> -->
+    <style>
+        .modal .warp-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(62, 100, 255, 0.05);
+    color: #3e64ff;
+    border-radius: 50%;
+}
+.modal .warp-icon span {
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.modal form label{
+    color: #000;
+    font-weight: 600;
+}
+    </style>
 </head>
 <body>
     
@@ -30,7 +53,7 @@
                 class="navbar-toggler-icon"></span> </button>
     <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"> <a class="btn btn-sm btn-soft-primary btn-round" href="#portfolio">Buy Now</a> </li>
+            <li class="nav-item"> <button class="btn btn-sm btn-soft-primary btn-round" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModalCenter">Buy Now</button> </li>
             <!-- <li class="nav-item active"> <a class="nav-link nav_text" href="#home">Home </a> </li>
             <li class="nav-item"> <a class="nav-link nav_text" href="#portfolio">Portfolio</a> </li> -->
         </ul>
@@ -569,6 +592,40 @@
 
     </div>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded-0">
+            <div class="modal-body p-4 px-5">
+                <div class="main-content text-center">
+                    <a href="#" class="close-btn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><span class=" mdi mdi-close"></span></span>
+                    </a>
+
+                    <div class="warp-icon mb-4">
+                        <span class="icon-lock2"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/lock/v17/24px.svg" style="width: 36px;"></span>
+                    </div>
+                    
+                    <form action="#">
+                        <label for="">This link is password protected</label>
+                        <p class="mb-4">All their equipment and instruments are alive. The sky was cloudless and of a
+                            deep dark blue.</p>
+                        <div class="form-group mb-4">
+                            <input type="password" class="form-control text-center" placeholder="Enter password">
+                        </div>
+                        <div class="d-flex">
+                            <div class="mx-auto">
+                                <a href="#" class="btn btn-primary">Submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--BS Resources -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
