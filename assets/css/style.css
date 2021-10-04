@@ -138,3 +138,28 @@ width: 350px;
     background: #f0f9fa;
     margin: 1rem;
 }
+
+
+
+/* footer */
+.bg-footer {
+    border-radius: 450px 0px 0px 0px;
+}
+.team-social i {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    line-height: 34px;
+    background-color: #f0f9fa;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #dbf1f1;
+    font-size: 16px;
+}
+.footer-link a {
+    color: #828f99;
+    line-height: 38px;
+    font-size: 15px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
