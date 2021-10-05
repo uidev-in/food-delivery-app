@@ -372,12 +372,10 @@ margin: 0 auto;
     right: -40px;
 }
 .carousel-navs .owl-nav .owl-prev::before {
-    content: "\F04D";
-    font-family:"Material Design Icons";
+    content: "\E5C4";
 }
 .carousel-navs .owl-nav .owl-next::before {
-    content: '\F054';
-    font-family:"Material Design Icons";
+    content: '\E5C8';
 }
 .carousel-navs .owl-nav [class*="owl-"]::before {
     font-family:"Material Icons";
