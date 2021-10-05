@@ -578,6 +578,50 @@ width: 350px;
     color: #ccc;
 }
 
+.modal .warp-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    background: rgba(62, 100, 255, 0.05);
+    color: #3e64ff;
+    border-radius: 50%;
+}
+.modal .warp-icon span {
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 47%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.modal form label{
+    color: #000;
+    font-weight: 600;
+}
+.clients {
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Our CLient */
+
+.clients img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    -webkit-filter: grayscale(100);
+    filter: grayscale(100);
+}
+.clients img:hover {
+    -webkit-filter: none;
+    filter: none;
+    transform: scale(1.15);
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
