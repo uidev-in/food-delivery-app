@@ -40,6 +40,23 @@
     color: #000;
     font-weight: 600;
 }
+.clients {
+    padding: 15px 0;
+    text-align: center;
+}
+.clients img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    -webkit-filter: grayscale(100);
+    filter: grayscale(100);
+}
+.clients img:hover {
+    -webkit-filter: none;
+    filter: none;
+    transform: scale(1.15);
+}
     </style>
 </head>
 <body>
@@ -399,10 +416,48 @@
 <!-- Features -->
 
 <!-- About -->
-<section class="section bg-light bg-cta bg-about">
+<section class="section bg-light bg-cta bg-about" style="padding-top: 30px;">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
+   <div id="clients" class="clients my-4 mb-5">
+      <div class="container">
+          <div class="text-center">
+                    <h2>Our <span class="text-success"> Top Clients</span></h2>
+                    <p class="text-muted mt-3">We work with companies of all sizes and budgets. Here are what some of them have to say:</p>
+
+                </div>
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+            <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/amys.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500" data-aos-offset="0">
+            <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/clove_dental.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700" data-aos-offset="0">
+            <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/CBRE.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900" data-aos-offset="0">
+            <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/fedex_express_logo.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1100" data-aos-offset="0">
+            <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/rapsodia.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center aos-init aos-animate" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1300" data-aos-offset="0">
+            <img src="https://django-b2b.s3.amazonaws.com/static/img/clients/swiggy.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+        <div class="row justify-content-center mt-5">
+            <div class="col-lg-8 mt-5">
                 <div class="text-center">
                     <h2>About <span class="text-success"> ExMyB</span></h2>
                     <p class="text-muted mt-3">We are quick, cost-effective, and offer fully customized Delivery App and Website Solutions for
@@ -603,18 +658,32 @@
                     <a href="#" class="close-btn" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><span class=" mdi mdi-close"></span></span>
                     </a>
-
+<!-- 
                     <div class="warp-icon mb-4">
                         <span class="icon-lock2"><img src="https://fonts.gstatic.com/s/i/materialiconsoutlined/lock/v17/24px.svg" style="width: 36px;"></span>
-                    </div>
+                    </div> -->
                     
                     <form action="#">
-                        <label for="">This link is password protected</label>
-                        <p class="mb-4">All their equipment and instruments are alive. The sky was cloudless and of a
-                            deep dark blue.</p>
-                        <div class="form-group mb-4">
-                            <input type="password" class="form-control text-center" placeholder="Enter password">
+                       <h5 class="form-title mb-4 mt-5 text-center font-weight-bold">Get Quotes in a minutes</h5>
+
+                        <div class="form-group">
+                            <input type="text" id="full_name" class="form-control mb-4" placeholder="Enter Your Full Name">
                         </div>
+                        <div class="form-group mb-4">
+                          <input type="text" id="contact" class="form-control mb-4" placeholder="Enter Your Contact No.">
+                            <!-- <input type="password" class="form-control text-center" placeholder="Enter password"> -->
+                        </div>
+
+                        <div class="form-group mb-4">
+                        <input type="email" id="email_id" class="form-control mb-4" placeholder="Enter Your Email Id">
+                        
+                        </div>
+
+                        <div class="form-group mb-4">
+                        <textarea class="form-control mb-4" id="Message" placeholder="Write Message... "></textarea>
+                        
+                        </div>
+
                         <div class="d-flex">
                             <div class="mx-auto">
                                 <a href="#" class="btn btn-primary">Submit</a>
