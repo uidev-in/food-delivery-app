@@ -79,7 +79,7 @@ p {
 /* hero section */
 .bg-home {
     position: relative;
-    padding: 100px 0px 240px 0px;
+    padding: 60px 0px 180px 0px;
     border-radius: 0px 0px 0px 450px;
 }
 
@@ -106,6 +106,8 @@ p {
 /* Features */
 .image-box img{
 width: 350px;
+display: block;
+margin: 0 auto;
 }
 
 /* About */
